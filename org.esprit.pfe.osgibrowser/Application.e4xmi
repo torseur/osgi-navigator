@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_pZbicFqHEeKruOIwQsH-Fg" elementId="org.eclipse.e4.ide.application" bindingContexts="_pZbicVqHEeKruOIwQsH-Fg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_pZbih1qHEeKruOIwQsH-Fg" elementId="org.esprit.pfe.osgibrowser.window" label="OsGi Browser" iconURI="platform:/plugin/org.esprit.pfe.osgibrowser/icons/mozilla.gif" x="10" y="10" width="800" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_pZbij1qHEeKruOIwQsH-Fg">
+      <children xsi:type="advanced:Perspective" xmi:id="_pZbikFqHEeKruOIwQsH-Fg">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_fRD-sFtgEeK-ucy74qgTAg" elementId="org.esprit.pfe.osgibrowser.partsashcontainer.0" selectedElement="_-rnRMFqIEeKruOIwQsH-Fg">
+          <children xsi:type="basic:PartStack" xmi:id="_-rnRMFqIEeKruOIwQsH-Fg" elementId="org.esprit.pfe.osgibrowser.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="__xf7MFqIEeKruOIwQsH-Fg" elementId="org.esprit.pfe.osgibrowser.part.0" contributionURI="bundleclass://org.esprit.pfe.osgibrowser/org.esprit.pfe.osgibrowser.ui.browser.MozBrowserEditor" label="test" closeable="true"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_pZbiiFqHEeKruOIwQsH-Fg" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_pZbiiVqHEeKruOIwQsH-Fg" elementId="" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pZbiilqHEeKruOIwQsH-Fg" label="Open" iconURI="platform:/plugin/org.esprit.pfe.osgibrowser/icons/sample.gif" command="_pZbiflqHEeKruOIwQsH-Fg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pZbii1qHEeKruOIwQsH-Fg" label="Save" iconURI="platform:/plugin/org.esprit.pfe.osgibrowser/icons/save_edit.gif" command="_pZbigVqHEeKruOIwQsH-Fg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pZbijFqHEeKruOIwQsH-Fg" label="Quit" command="_pZbielqHEeKruOIwQsH-Fg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_-dtPcFs1EeK-ucy74qgTAg" elementId="org.esprit.pfe.osgibrowser.handledmenuitem.0" label="New Tab" command="_UevCcFqNEeKruOIwQsH-Fg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ivorQF25EeKz36usgqHDSA" elementId="org.esprit.pfe.osgibrowser.handledmenuitem.0" label="New Window" command="_2m8CUF24EeKz36usgqHDSA"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_pZbijVqHEeKruOIwQsH-Fg" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pZbijlqHEeKruOIwQsH-Fg" label="About" command="_pZbihFqHEeKruOIwQsH-Fg"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_pZbik1qHEeKruOIwQsH-Fg">
+      <children xsi:type="menu:ToolBar" xmi:id="_pZbilFqHEeKruOIwQsH-Fg" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_pZbilVqHEeKruOIwQsH-Fg" iconURI="platform:/plugin/org.esprit.pfe.osgibrowser/icons/sample.gif" command="_pZbiflqHEeKruOIwQsH-Fg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_pZbillqHEeKruOIwQsH-Fg" iconURI="platform:/plugin/org.esprit.pfe.osgibrowser/icons/save_edit.gif" command="_pZbigVqHEeKruOIwQsH-Fg"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_pZbie1qHEeKruOIwQsH-Fg" contributionURI="bundleclass://org.esprit.pfe.osgibrowser/org.esprit.pfe.osgibrowser.handlers.QuitHandler" command="_pZbielqHEeKruOIwQsH-Fg"/>
+  <handlers xmi:id="_pZbif1qHEeKruOIwQsH-Fg" contributionURI="bundleclass://org.esprit.pfe.osgibrowser/org.esprit.pfe.osgibrowser.handlers.OpenHandler" command="_pZbiflqHEeKruOIwQsH-Fg"/>
+  <handlers xmi:id="_pZbiglqHEeKruOIwQsH-Fg" contributionURI="bundleclass://org.esprit.pfe.osgibrowser/org.esprit.pfe.osgibrowser.handlers.SaveHandler" command="_pZbigVqHEeKruOIwQsH-Fg"/>
+  <handlers xmi:id="_pZbihVqHEeKruOIwQsH-Fg" contributionURI="bundleclass://org.esprit.pfe.osgibrowser/org.esprit.pfe.osgibrowser.handlers.AboutHandler" command="_pZbihFqHEeKruOIwQsH-Fg"/>
+  <handlers xmi:id="_ceMzYFqNEeKruOIwQsH-Fg" elementId="org.esprit.pfe.osgibrowser.handler.0" contributionURI="bundleclass://org.esprit.pfe.osgibrowser/org.esprit.pfe.osgibrowser.handlers.NewOnglet" command="_UevCcFqNEeKruOIwQsH-Fg"/>
+  <handlers xmi:id="_7rceAF24EeKz36usgqHDSA" elementId="org.esprit.pfe.osgibrowser.handler.1" contributionURI="bundleclass://org.esprit.pfe.osgibrowser/org.esprit.pfe.osgibrowser.handlers.NewWindow" command="_2m8CUF24EeKz36usgqHDSA"/>
+  <bindingTables xmi:id="_pZbifFqHEeKruOIwQsH-Fg" bindingContext="_pZbicVqHEeKruOIwQsH-Fg">
+    <bindings xmi:id="_pZbifVqHEeKruOIwQsH-Fg" keySequence="M1+Q" command="_pZbielqHEeKruOIwQsH-Fg"/>
+    <bindings xmi:id="_pZbigFqHEeKruOIwQsH-Fg" keySequence="M1+O" command="_pZbiflqHEeKruOIwQsH-Fg"/>
+    <bindings xmi:id="_57lrIFthEeK-ucy74qgTAg" keySequence="M1+N" command="_UevCcFqNEeKruOIwQsH-Fg"/>
+    <bindings xmi:id="_pZbig1qHEeKruOIwQsH-Fg" keySequence="M1+S" command="_pZbigVqHEeKruOIwQsH-Fg"/>
+    <bindings xmi:id="_zZvtkF24EeKz36usgqHDSA" keySequence="M1+T" command="_2m8CUF24EeKz36usgqHDSA"/>
+  </bindingTables>
+  <rootContext xmi:id="_pZbicVqHEeKruOIwQsH-Fg" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_pZbiclqHEeKruOIwQsH-Fg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_pZbic1qHEeKruOIwQsH-Fg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <rootContext xmi:id="_tXhGkFthEeK-ucy74qgTAg" elementId="org.eclipse.ui.contexts.part" name="Onglet Binding Context"/>
+  <commands xmi:id="_pZbielqHEeKruOIwQsH-Fg" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_pZbiflqHEeKruOIwQsH-Fg" elementId="org.esprit.pfe.osgibrowser.open" commandName="openCommand"/>
+  <commands xmi:id="_pZbigVqHEeKruOIwQsH-Fg" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_pZbihFqHEeKruOIwQsH-Fg" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_UevCcFqNEeKruOIwQsH-Fg" elementId="org.esprit.pfe.osgibrowser.command.0" commandName="newOngletCommand"/>
+  <commands xmi:id="_2m8CUF24EeKz36usgqHDSA" elementId="org.esprit.pfe.osgibrowser.command.1" commandName="newWindowCommand"/>
+  <addons xmi:id="_pZbidFqHEeKruOIwQsH-Fg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_pZbidVqHEeKruOIwQsH-Fg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_pZbidlqHEeKruOIwQsH-Fg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_pZbid1qHEeKruOIwQsH-Fg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_pZbieFqHEeKruOIwQsH-Fg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_pZbieVqHEeKruOIwQsH-Fg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
